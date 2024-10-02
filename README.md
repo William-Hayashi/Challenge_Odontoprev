@@ -29,7 +29,7 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 ![Diagrama MER](path/para/imagem/mer.png)
 
 ## Link do Vídeo de Apresentação
-- [Link do Vídeo](url_do_video)
+- [Link do Vídeo](https://youtu.be/zDa0eHVw5kU)
 
 ## Listagem de Endpoints
 
