@@ -35,23 +35,29 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 
 #### Criar Cliente
 - **Método**: POST
-- **URL**: `http://localhost:8080/clientes`
+- **URL**: `http://localhost:8080/cadastro`
 - **Parâmetros**: 
-  - **Body**: JSON com os dados do cliente
+  - **Exemplo de Body**:
+  {
+	"name": "William",
+    "CPF": "38-34386839",
+    "CEP": "04321070",
+    "primeiroTratamento": "Sim"
+}
 - **Respostas**:
   - **200 OK**: Cliente criado com sucesso
   - **400 Bad Request**: Dados inválidos
 
 #### Obter Todos os Clientes
 - **Método**: GET
-- **URL**: `http://localhost:8080/clientes`
+- **URL**: `http://localhost:8080/cadastro`
 - **Respostas**:
   - **200 OK**: Retorna a lista de clientes
   - **404 Not Found**: Nenhum cliente encontrado
 
 #### Obter Cliente por ID
 - **Método**: GET
-- **URL**: `http://localhost:8080/clientes/{id}`
+- **URL**: `http://localhost:8080/cadastro/{id}`
 - **Parâmetros**: 
   - **Path Variable**: `id` do cliente
 - **Respostas**:
@@ -60,7 +66,7 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 
 #### Atualizar Cliente
 - **Método**: PUT
-- **URL**: `http://localhost:8080/clientes/{id}`
+- **URL**: `http://localhost:8080/cadastro/{id}`
 - **Parâmetros**: 
   - **Path Variable**: `id` do cliente
   - **Body**: JSON com os dados atualizados do cliente
@@ -70,7 +76,7 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 
 #### Deletar Cliente
 - **Método**: DELETE
-- **URL**: `http://localhost:8080/clientes/{id}`
+- **URL**: `http://localhost:8080/cadastro/{id}`
 - **Parâmetros**: 
   - **Path Variable**: `id` do cliente
 - **Respostas**:
