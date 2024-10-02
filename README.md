@@ -47,6 +47,8 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 - **Respostas**:
   - **200 OK**: Cliente criado com sucesso
   - **400 Bad Request**: Dados inválidos
+![Teste Postman POST](Documentos/POST_JAVA.png)
+
 
 #### Obter Todos os Clientes
 - **Método**: GET
@@ -54,6 +56,7 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 - **Respostas**:
   - **200 OK**: Retorna a lista de clientes
   - **404 Not Found**: Nenhum cliente encontrado
+![Teste Postman GET](Documentos/GET_JAVA.png)
 
 #### Obter Cliente por ID
 - **Método**: GET
@@ -63,6 +66,8 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 - **Respostas**:
   - **200 OK**: Retorna os dados do cliente
   - **404 Not Found**: Cliente não encontrado
+![Teste Postman GET BY ID](Documentos/get_by_id.png)
+
 
 #### Atualizar Cliente
 - **Método**: PUT
@@ -73,6 +78,7 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 - **Respostas**:
   - **200 OK**: Cliente atualizado com sucesso
   - **404 Not Found**: Cliente não encontrado
+  ![Teste Postman PUT](Documentos/UPDATE.png)
 
 #### Deletar Cliente
 - **Método**: DELETE
@@ -82,3 +88,4 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 - **Respostas**:
   - **200 OK**: Cliente deletado com sucesso
   - **404 Not Found**: Cliente não encontrado
+![Teste Postman DELETE](Documentos/delete.png)
