@@ -12,7 +12,11 @@ A divisão das atividades foi realizada conforme as disciplinas da grade curricu
 - **Pedro**: Disruptive Architectures IoT, IOB, Generative AI, Mobile Application Development, e Advanced Business Development With .NET.
 - **William**: Java Advanced, Mastering Relational, e Non-Relational Database.
 
+## Cronograma de Tarefas
+- [Link do Trello](https://trello.com/invite/b/6701a3ed3d57ce4ab46300fd/ATTI2c7cf38c5ce5cc04465175370f7a3aedF74A7B2D/backlog-odontoprev)
 
+##
+![Diagrama Lógico](Documentos/Documentação/DOCUMENTAÇÃO%20JAVA.pdf)
 
 ## Rodagem da Aplicação
 Para executar a API, siga os passos abaixo:
