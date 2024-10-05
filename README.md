@@ -12,6 +12,8 @@ A divisão das atividades foi realizada conforme as disciplinas da grade curricu
 - **Pedro**: Disruptive Architectures IoT, IOB, Generative AI, Mobile Application Development, e Advanced Business Development With .NET.
 - **William**: Java Advanced, Mastering Relational, e Non-Relational Database.
 
+
+
 ## Rodagem da Aplicação
 Para executar a API, siga os passos abaixo:
 
