@@ -22,11 +22,11 @@ Para executar a API, siga os passos abaixo:
 A aplicação está conectada a um banco de dados hospedado na conta do William, utilizando as credenciais presentes no arquivo de configuração. A porta configurada para a aplicação é a **8080**.
 
 ## Diagramas
-### Diagrama Entidade-Relacionamento (DER)
-![Diagrama DER](path/para/imagem/der.png)
+### Diagrama Relacional
+![Diagrama Relacional](Documentos/Relacional.png)
 
-### Diagrama de Modelo de Entidade-Relacionamento (MER)
-![Diagrama MER](path/para/imagem/mer.png)
+### Diagrama de Lógico
+![Diagrama Lógico](Documentos/Logical.png)
 
 ## Link do Vídeo de Apresentação
 - [Link do Vídeo](https://youtu.be/zDa0eHVw5kU)
