@@ -1,4 +1,4 @@
-# CHALLENGE_JAVA_ADVANCED - Aplicação para Cadastro de Clientes
+# CHALLENGE_JAVA_ADVANCED - Aplicação para Cadastro de Clientes e Endereço
 
 ## Integrantes:
 - **Murilo Ferreira Ramos** - RM553315
@@ -9,8 +9,8 @@
 A divisão das atividades foi realizada conforme as disciplinas da grade curricular:
 
 - **Murilo**: DevOps Tools, Cloud Computing, Compliance, Quality Assurance, e Tests.
-- **Pedro**: Disruptive Architectures IoT, IOB, Generative AI, Mobile Application Development, e Advanced Business Development With .NET.
-- **William**: Java Advanced, Mastering Relational, e Non-Relational Database.
+- **Pedro**: Mobile Application Development, e Advanced Business Development With .NET.
+- **William**: Java Advanced, Mastering Relational e Non-Relational Database, Disruptive Architectures IoT, IOB, Generative AI
 
 ## Cronograma de Tarefas
 - [Link do Trello](https://trello.com/invite/b/6701a3ed3d57ce4ab46300fd/ATTI2c7cf38c5ce5cc04465175370f7a3aedF74A7B2D/backlog-odontoprev)
@@ -95,3 +95,6 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
   - **200 OK**: Cliente deletado com sucesso
   - **404 Not Found**: Cliente não encontrado
 ![Teste Postman DELETE](Documentos/delete.png)
+
+
+
