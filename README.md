@@ -35,7 +35,7 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 ![Diagrama Lógico](Documentos/Logical.png)
 
 ## Link do Vídeo de Apresentação
-- [Link do Vídeo](https://youtu.be/zDa0eHVw5kU)
+- [Link do Vídeo](https://youtu.be/Y9_4OHeAdfs)
 
 ## Listagem de Endpoints
 
