@@ -97,4 +97,62 @@ A aplicação está conectada a um banco de dados hospedado na conta do William,
 ![Teste Postman DELETE](Documentos/delete.png)
 
 
+***
 
+
+#### Criar Endereco
+- **Método**: POST
+- **URL**: `http://localhost:8080/endereco`
+- **Parâmetros**: 
+  - **Exemplo de Body**:
+{
+    "numero": 1231,
+    "ponto_referencia": "Perto da mercado ",
+    "bairro": "PAulista",
+    "rua" : "Avenida Paulista"
+}
+- **Respostas**:
+  - **200 OK**: Endereco criado com sucesso
+  - **400 Bad Request**: Dados inválidos
+![Teste Postman POST](Documentos/POST_ENDERECO.png)
+
+#### Obter Todos os Enderecos
+- **Método**: GET
+- **URL**: `http://localhost:8080/endereco`
+- **Respostas**:
+  - **200 OK**: Retorna a lista de Enderecos
+  - **404 Not Found**: Nenhum Endereco encontrado
+![Teste Postman GET](Documentos/GET_ENDERECO.png)
+
+#### Obter Endereco por ID
+- **Método**: GET
+- **URL**: `http://localhost:8080/endereco/{id}`
+- **Parâmetros**: 
+  - **Path Variable**: `id` do endereco
+- **Respostas**:
+  - **200 OK**: Retorna os dados do Endereco
+  - **404 Not Found**: Endereco não encontrado
+![Teste Postman GET BY ID](Documentos/GET_BY_ID_ENDERECO.png)
+
+
+
+#### Atualizar Endereco
+- **Método**: PUT
+- **URL**: `http://localhost:8080/endereco/{id}`
+- **Parâmetros**: 
+  - **Path Variable**: `id` do Endereco
+  - **Body**: JSON com os dados atualizados do Endereco
+- **Respostas**:
+  - **200 OK**: Endereco atualizado com sucesso
+  - **404 Not Found**: Endereco não encontrado
+  ![Teste Postman PUT](Documentos/PUT_ENDERECO.png)
+
+#### Deletar Endereco
+- **Método**: DELETE
+- **URL**: `http://localhost:8080/endereco/{id}`
+- **Parâmetros**: 
+  - **Path Variable**: `id` do Endereco
+- **Respostas**:
+  - **200 OK**: Endereco deletado com sucesso
+  - **404 Not Found**: Endereco não encontrado
+![Teste Postman DELETE](Documentos/DELETE_ENDERECO.png)
