@@ -3,12 +3,14 @@ package com.example.C_Odontoprev.models;
 import jakarta.persistence.*;
 import org.springframework.hateoas.RepresentationModel;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.UUID;
 
 @Entity
 @Table(name = "TB_CLIENTS")
 public class ClientModel extends RepresentationModel<ClientModel> implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Id

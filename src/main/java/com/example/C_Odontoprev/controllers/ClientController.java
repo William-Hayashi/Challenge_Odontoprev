@@ -65,7 +65,6 @@ public class ClientController {
         var clientModel = client0.get();
         BeanUtils.copyProperties(clientRecordDto, clientModel);
         return ResponseEntity.status(HttpStatus.OK).body(clientRepository.save(clientModel));
-
     }
 
     //DELETE
